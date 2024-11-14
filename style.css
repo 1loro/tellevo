@@ -20,6 +20,7 @@ header {
   align-items: center;
   width: 100%;
   padding: 1rem 6rem;
+  z-index: 1000; 
 }
 
 header .logo {
@@ -186,7 +187,6 @@ section .container .content .action .action-2:hover {
   transition: 0.2s linear;
 }
 
-/* Nuevos estilos para la página About */
 .about-section {
   padding: 120px 0 50px;
   background-image: url("bg.png");
@@ -211,6 +211,7 @@ section .container .content .action .action-2:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 30px;
+  z-index: 1; 
 }
 
 .student-card {
