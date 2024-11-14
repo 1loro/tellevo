@@ -329,3 +329,51 @@ footer {
   width: 100%;
   font-size: 14px;
 }
+
+
+
+@keyframes neonFlicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: 
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #480463,
+      0 0 25px #480463,
+      0 0 30px #480463,
+      0 0 35px #480463;
+  }
+  20%, 22%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+@keyframes softNeonFlicker {
+  0%, 100% {
+    text-shadow: 
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #480463,
+      0 0 25px #480463,
+      0 0 30px #480463,
+      0 0 35px #480463;
+  }
+  50% {
+    text-shadow: 
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 7px #fff,
+      0 0 10px #480463,
+      0 0 15px #480463,
+      0 0 20px #480463,
+      0 0 25px #480463;
+  }
+}
+
+section .container .content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  animation: softNeonFlicker 3s ease-in-out infinite;
+  color: #fff;
+}
