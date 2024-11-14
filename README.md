@@ -1,6 +1,13 @@
-# TeLlevoAPP
+# 🚗 App TeLlevo
 
-Bienvenidos al repositorio de **TeLlevoAPP**, una aplicación móvil desarrollada para facilitar el transporte de estudiantes. 
+**App TeLlevo** es una plataforma de gestión de viajes desarrollada con **Django Rest Framework** para el backend y **Ionic** para el frontend, que facilita la conexión entre conductores y usuarios. Con esta app, los conductores pueden gestionar sus viajes y los administradores tienen control sobre los usuarios y los viajes dentro del sistema.
+
+
+[![Ver video en YouTube](https://img.youtube.com/vi/a5JQS8TlMRs/0.jpg)](https://www.youtube.com/watch?v=a5JQS8TlMRs)
+
+[Video del funcionamiento](https://www.youtube.com/watch?v=a5JQS8TlMRs)
+
+[Codigo fuente]([https://github.com/tu_usuario/tu_repositorio](https://github.com/1loro/entraga_2)
 
 ## Descripción
 
