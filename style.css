@@ -186,7 +186,6 @@ section .container .content .action .action-2:hover {
   transition: 0.2s linear;
 }
 
-/* Nuevos estilos para la página About */
 .about-section {
   padding: 120px 0 50px;
   background-image: url("bg.png");
