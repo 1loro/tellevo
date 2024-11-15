@@ -453,3 +453,12 @@ header nav {
     display: block;
   }
 }
+
+.logo img {
+  transition: transform 1s ease, filter 0.5s ease; 
+}
+
+.logo a:hover img {
+
+  filter: drop-shadow(0px 0px 8px rgb(212, 0, 255)); 
+}
