@@ -1,60 +1,55 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const hamburger = document.querySelector('.hamburger-menu');
-    const mobileNav = document.querySelector('.mobile-nav');
-    
-    hamburger.addEventListener('click', function() {
-      this.classList.toggle('active');
-      mobileNav.classList.toggle('active');
-    });
+  const hamburger = document.querySelector('.hamburger-menu');
+  const mobileNav = document.querySelector('.mobile-nav');
   
-   
-    const mobileLinks = mobileNav.querySelectorAll('a');
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        mobileNav.classList.remove('active');
-      });
+  hamburger.addEventListener('click', function() {
+    this.classList.toggle('active');
+    mobileNav.classList.toggle('active');
+  });
+
+  const mobileLinks = mobileNav.querySelectorAll('a');
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      mobileNav.classList.remove('active');
     });
   });
-  document.addEventListener('DOMContentLoaded', function() {
-    const lorenzoImage = document.querySelector('.student-card:nth-child(1) .student-image');
-    const gasparImage = document.querySelector('.student-card:nth-child(2) .student-image');
 
-    const audioLorenzo = document.getElementById('audioLorenzo');
-    const audioGaspar = document.getElementById('audioGaspar');
+  
+  const lorenzoCard = document.querySelector('.student-card:nth-child(1)');
+  const gasparCard = document.querySelector('.student-card:nth-child(2)');
 
+  const audioLorenzo = document.getElementById('audioLorenzo');
+  const audioGaspar = document.getElementById('audioGaspar');
 
-    audioLorenzo.volume = 0.2; 
-    audioGaspar.volume = 0.2;   
-
-
-    lorenzoImage.addEventListener('mouseenter', function() {
-
-        if (!audioLorenzo.paused) {
-            audioLorenzo.pause();
-        }
-
-        audioLorenzo.play();
-    });
+  audioLorenzo.volume = 0.2;  
+  audioGaspar.volume = 0.2;   
 
 
-    gasparImage.addEventListener('mouseenter', function() {
+  lorenzoCard.addEventListener('mouseenter', function() {
+     
+      if (!audioLorenzo.paused) {
+          audioLorenzo.pause();
+      }
+      audioLorenzo.play();  
+  });
 
-        if (!audioGaspar.paused) {
-            audioGaspar.pause();
-        }
+  
+  gasparCard.addEventListener('mouseenter', function() {
+      
+      if (!audioGaspar.paused) {
+          audioGaspar.pause();
+      }
+      audioGaspar.play();  
+  });
 
-        audioGaspar.play();
-    });
+  
+  lorenzoCard.addEventListener('mouseleave', function() {
+      audioLorenzo.pause();  
+  });
 
 
-    lorenzoImage.addEventListener('mouseleave', function() {
-        audioLorenzo.pause();  
-    });
-
-
-    gasparImage.addEventListener('mouseleave', function() {
-        audioGaspar.pause();  
-    });
+  gasparCard.addEventListener('mouseleave', function() {
+      audioGaspar.pause();  
+  });
 });
-
