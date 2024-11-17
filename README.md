@@ -39,7 +39,8 @@ Este proyecto ha sido desarrollado como parte de una evaluación académica, cum
 
 - **Ionic Angular**: Framework para el desarrollo de aplicaciones móviles multiplataforma.
 - **HTML, CSS y JavaScript**: Tecnologías para el desarrollo de la página de descarga y presentación del proyecto.
-- **Django REST Framework**: Utilizado para construir una API robusta que permite la gestión de datos y comunicación entre el frontend y el backend de la aplicación.
+- **Firebase**: Plataforma para autenticación de usuarios, bases de datos en tiempo real (Firestore) y funciones en la nube (Cloud Functions).
+- ~~**Django REST Framework**: Utilizado para construir una API robusta que permite la gestión de datos y comunicación entre el frontend y el backend de la aplicación.~~
 - **GitHub Pages**: Para la publicación del sitio web.
 
 
