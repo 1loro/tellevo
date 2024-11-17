@@ -7,7 +7,7 @@
 
 [Video del funcionamiento](https://www.youtube.com/watch?v=a5JQS8TlMRs)
 
-[Codigo fuente](https://github.com/1loro/entraga_2)
+[Codigo fuente](https://github.com/1loro/tellevo_code)
 
 ## Descripción
 
