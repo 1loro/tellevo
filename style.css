@@ -331,6 +331,13 @@ footer {
   font-size: 14px;
 }
 
+@media screen and (max-width: 1000px) {
+  footer {
+    
+    position: fixed; /* Fijar al final de la ventana */
+  }
+}
+
 
 
 @keyframes neonFlicker {
