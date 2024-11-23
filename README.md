@@ -5,7 +5,7 @@
 
 [![Ver video en YouTube](https://img.youtube.com/vi/a5JQS8TlMRs/0.jpg)](https://www.youtube.com/watch?v=iAxF7XhtOcs)
 
-[Video del funcionamiento](https://www.youtube.com/watch?v=a5JQS8TlMRs)
+[Video del funcionamiento](https://www.youtube.com/watch?v=iAxF7XhtOcs)
 
 [Codigo fuente](https://github.com/1loro/tellevo_code)
 
